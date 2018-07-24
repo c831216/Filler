@@ -1,0 +1,13 @@
+#include "libft.h"
+#include <stdio.h>
+
+int	main()
+{
+	char **store;
+	while (get_next_line(0, store) > 0)
+		{
+			printf("%s\n", *store);
+		}
+
+	return 0;
+}
